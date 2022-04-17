@@ -9,8 +9,10 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnb10100/book-lookup.git"
+  "author": "cnb10100",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
